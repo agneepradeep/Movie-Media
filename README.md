@@ -106,8 +106,8 @@ pip install streamlit pandas numpy scikit-learn joblib requests
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/movie-recommendation-system.git
-   cd movie-recommendation-system
+   git clone https://github.com/agneepradeep/Movie-Media.git
+   cd Movie-Media
    ```
 2. **Set up virtual environment**:
    ```bash
@@ -126,7 +126,7 @@ pip install streamlit pandas numpy scikit-learn joblib requests
       OMDB_API_KEY=your_api_key_here
       ```
 
-5. **Run the Flask app**:
+5. **Run the Streamlit app**:
    ```bash
    streamlit run app.py
    ```
