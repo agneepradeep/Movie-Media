@@ -125,6 +125,15 @@ pip install streamlit pandas numpy scikit-learn joblib requests
       ```sh
       OMDB_API_KEY=your_api_key_here
       ```
+    - In place of `OMDB_API_KEY = st.secrets['API_key']` write this lines:
+      ```python
+      from dotenv import load_dotenv
+      import os
+
+      load_dotenv()
+      OMDB_API_KEY = os.getenv('API_Key')
+      ```
+    - It will directly use your api key from your `.env` file
 
 5. **Run the Streamlit app**:
    ```bash
